@@ -1,0 +1,8 @@
+a=set(map(int,input("Set A: ").split()))
+b=set(map(int,input("Set B: ").split()))
+u=a.union(b)
+i=a.intersection(b)
+d=a.difference(b)
+print(f"Union: {u}")
+print(f"Intersection: {i if i else 'set()'}")
+print(f"Difference: {d}")
